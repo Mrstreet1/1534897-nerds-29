@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+  </head>
+  <body>
+    <header class="main-header">
+      <img src="https://via.placeholder.com/159.87x65.02"alt="Логотип дизайн студии Нердс">
+     <nav>
+      <ul>
+        <li><a href="blank.html">Студия</a></li>
+        <li><a href="blank.html">Клиенты</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
+        <li><a href="blank.html">Контакты</a></li>
+      </ul>
+      <ul>
+        <li><a href="blank.html">Корзина</a></li>
+      </ul>
+     </nav>
+   </header>
+   <main>
+    <h1>Магазин готовых шаблонов</h1>
+    <section>
+      <ul>
+        <li>Стоимость
+         <p>От 0 до 15000</p>
+        </li>
+        <li>Сортировать
+         <p>По цене</p>
+         <p>По типу</p>
+         <p>По названию</p>
+        </li>
+      </ul>
+    </section>
+    <section>
+     <h3>Сетка</h3>
+      <ul>
+       <li><a href="">Адаптивная</a></li>
+       <li><a href="">Фиксированная</a></li>
+       <li><a href="">Резиновая</a></li>
+      </ul>
+      <ul>
+        <h3><a href="">Особенности</a></h3>
+        <li><a href="">Слайдер</a></li>
+        <li><a href="">Блок преимуществ</a></li>
+        <li><a href="">Новости</a></li>
+        <li><a href="">Галерея</a></li>
+        <li><a href="">Корзина</a></li>
+      </ul>
+      <button type="button">показать</button>
+    </section>
+    <section>
+      <h3  class="visualy-hidden">WELCOME to the gorgeous SEDONA</h3>
+       <img src="https://via.placeholder.com/358x576" alt="Информационный сайт для туристов">
+    </section>
+    <section>
+      <h3  class="visualy-hidden">PINK</h3>
+      <img src="https://via.placeholder.com/358x576" alt="Приложение для смартфонов">
+    </section>
+    <section>
+      <h3 class="visualy-hidden">Barber shop "BORODINSKI"</h3>
+      <img src="https://via.placeholder.com/364x582" alt="Парикмахерская "Barber shop BORODINSKI">
+    </section>
+    <section>
+      <h3 class="visualy-hidden">Mishka</h3>
+       <img src="https://via.placeholder.com/358x573.59" alt="Магазин товаров ручной работы">
+    </section>
+    <section>
+      <h3 class="visualy-hidden">Обучающий сайт Онлайн курсы</h3>
+      <img src="https://via.placeholder.com/358x572.41"alt="Онлайн курсы">
+    </section>
+    <section>
+      <h3 class="visualy-hidden">Крафтовый квас "КВАСТ"</h3>
+      <img src="https://via.placeholder.com/358x578"alt="Крафтовый квас">
+    </section>
+    <section>
+      <ul>
+        <li><a href=""1></a></li>
+        <li><a href=""2></a></li>
+      </ul>
+      <button type="button">следующая</button>
+    </section>
+   </main>
+   <footer class="main-footer">
+    <section>
+      <h3>nerds design studio</h3>
+      <p>191186, Санкт-Петербург,<br> ул. Б.Конюшенная, д. 19\8 <br>тел.+7(812)275-75-75</p>
+      <button type="button">Напишите нам</button>
+      <img src="" alt="Логотип "Нердс"">
+    </section>
+    <section>
+      <ul>
+        <li><a href="https://vk.com/">Вконтакте</a></li>
+        <li><a href="https://ru-ru.facebook.com/">Фейсбук</a></li>
+        <li><a href="https://www.instagram.com/">Инстаграм</a></li>
+      </ul>
+      <h2>Давайте дружить, это выгодно!</h2>
+       <p>Скидка 10% для друзей из социальных сетей.</p>
+   </section>
+  </footer>
+ </body>
+</html>>
