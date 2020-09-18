@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
@@ -23,11 +22,13 @@
    </header>
    <main>
     <h1>Магазин готовых шаблонов</h1>
+     <div>
+      <h3>Стоимость</h3>
+      <button type="button">От 0</button>
+      <button type="button">до 15000</button>
+     </div>
     <section>
       <ul>
-        <li>Стоимость
-         <p>От 0 до 15000</p>
-        </li>
         <li>Сортировать
          <p>По цене</p>
          <p>По типу</p>
