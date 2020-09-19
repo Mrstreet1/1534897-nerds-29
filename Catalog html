@@ -28,12 +28,11 @@
       <button type="button">до 15000</button>
      </div>
     <section>
+     <h3>Сортировать</h3>
       <ul>
-        <li>Сортировать
-         <p>По цене</p>
-         <p>По типу</p>
-         <p>По названию</p>
-        </li>
+         <li><a href="">По цене</a></li>
+         <li><a href="">По типу</a></li>
+         <li><a href="">По названию</a></li>
       </ul>
     </section>
     <section>
@@ -79,8 +78,8 @@
     </section>
     <section>
       <ul>
-        <li><a href=""1></a></li>
-        <li><a href=""2></a></li>
+        <li><a href="1"></a></li>
+        <li><a href="2"></a></li>
       </ul>
       <button type="button">следующая</button>
     </section>
