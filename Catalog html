@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="main-header">
-      <img src="https://via.placeholder.com/159.87x65.02"alt="Логотип дизайн студии Нердс">
+      <img src="https://via.placeholder.com/159.87x65.02" alt="Логотип дизайн студии Нердс">
      <nav>
       <ul>
         <li><a href="blank.html">Студия</a></li>
@@ -30,25 +30,25 @@
     <section>
      <h3>Сортировать</h3>
       <ul>
-         <li><a href="">По цене</a></li>
-         <li><a href="">По типу</a></li>
-         <li><a href="">По названию</a></li>
+         <li><a href="#">По цене</a></li>
+         <li><a href="#">По типу</a></li>
+         <li><a href="#">По названию</a></li>
       </ul>
     </section>
     <section>
      <h3>Сетка</h3>
       <ul>
-       <li><a href="">Адаптивная</a></li>
-       <li><a href="">Фиксированная</a></li>
-       <li><a href="">Резиновая</a></li>
+       <li><a href="#">Адаптивная</a></li>
+       <li><a href="#">Фиксированная</a></li>
+       <li><a href="#">Резиновая</a></li>
       </ul>
       <ul>
-        <h3><a href="">Особенности</a></h3>
-        <li><a href="">Слайдер</a></li>
-        <li><a href="">Блок преимуществ</a></li>
-        <li><a href="">Новости</a></li>
-        <li><a href="">Галерея</a></li>
-        <li><a href="">Корзина</a></li>
+        <h3><a href="#">Особенности</a></h3>
+        <li><a href="#">Слайдер</a></li>
+        <li><a href="#">Блок преимуществ</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Галерея</a></li>
+        <li><a href="#">Корзина</a></li>
       </ul>
       <button type="button">показать</button>
     </section>
@@ -70,16 +70,16 @@
     </section>
     <section>
       <h3 class="visualy-hidden">Обучающий сайт Онлайн курсы</h3>
-      <img src="https://via.placeholder.com/358x572.41"alt="Онлайн курсы">
+      <img src="https://via.placeholder.com/358x572.41" alt="Онлайн курсы">
     </section>
     <section>
       <h3 class="visualy-hidden">Крафтовый квас "КВАСТ"</h3>
-      <img src="https://via.placeholder.com/358x578"alt="Крафтовый квас">
+      <img src="https://via.placeholder.com/358x578" alt="Крафтовый квас">
     </section>
     <section>
       <ul>
-        <li><a href="1"></a></li>
-        <li><a href="2"></a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
       </ul>
       <button type="button">следующая</button>
     </section>
