@@ -80,8 +80,8 @@
       <ul>
         <li><a href="#">1</a></li>
         <li><a href="#">2</a></li>
+        <li><button type="button">следующая</button></li>
       </ul>
-      <button type="button">следующая</button>
     </section>
    </main>
    <footer class="main-footer">
