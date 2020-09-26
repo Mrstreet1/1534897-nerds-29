@@ -3,71 +3,76 @@
  <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link rel="stylesheet" href="css/normalize.css"
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
  </head>
  <body class="page-body ">
-   <header claas="main-header">
+   <header class="main-header">
     <img src="https://via.placeholder.com/159.87x65.02"alt="Логотип дизайн студии Нердс">
       <nav class="main-navigation">
+       <div class="main-navigation-wrapper">
         <ul class="site-navigation">
-          <li class="item-navigation"><a href="blank.html">Студия</a></li>
-          <li class="item-navigation"><a href="blank.html">Клиенты</a></li>
-          <li class="item-navigation"><a href="catalog.html">Магазин</a></li>
-          <li class="item-navigation"><a href="blank.html">Контакты</a></li>
+          <li><a href="blank.html">Студия</a></li>
+          <li><a href="blank.html">Клиенты</a></li>
+          <li><a href="catalog.html">Магазин</a></li>
+          <li><a href="blank.html">Контакты</a></li>
         </ul>
-        <ul>
+        <ul class="user-navigation">
           <li><a class="login-link" href="blank.html">Корзина</a></li>
         </ul>
+       </div>
       </nav>
     </header>
   <main class="container">
-     <div>
+     <div class="news">
       <h1 class="visualy-hidden">Интернет магазин «Nerds»</h1>
-       <span>Долго, дорого, скурпулезно.</span>
-           <p> Матиматически вывереный дизайн<br>
-            для вашего сайта или мобильного приложения</p>
-           <button type="button">Узнать больше</button>
-     </div>
-     <section class="features">
-       <ul class="feature-list">
-          <li class="feature-item"><h3>Веб-сайты</h3>
+       <ul class="news-list">
+        <li class="news-item"><h2>Долго, дорого,<br> скурпулезно.</h2></li>
+        <li class="news-item"><p>Матиматически вывереный дизайн<br>
+            для вашего сайта или мобильного приложения</p></li>
+        <li class="news-item"><button type="button">Узнать больше</button></li>
+       </ul>
+      </div>
+       <section class="features">
+        <ul class="feature-list">
+            <li class="feature-item"><h2>Веб-сайты</h2>
               <p>Мир никогда не будет прежним,после того как
                  увидит ваш сайт!</p>
-              <button type="button">Заказать</button></li>
-          <li class="feature-item"><h3>Приложения</h3></li>
+              <button class="batton" type="button">заказать</button></li>
+            <li class="feature-item"><h2>Приложения</h2>
                <p>Покорите топ-10 приложений в Appstor и Google play</p>
-               <button type="button">Заказать</button></li>
-          <li class="feature-item"><h3>Презентации</h3>
+               <button class="batton" type="button">заказать</button></li>
+            <li class="feature-item"><h2>Презентации</h2>
                <p>Вы даже не подозреваете,насколько вы изумительны!</p>
-               <button type="button">Заказать</button></li>
+               <button class="batton" type="button">заказать</button></li>
+           </ul>
        </section>
-       <section class="features">
+       <section class="benefits">
          <h3>Мы-маленькая,но гордая<br> дизайн-студия из Краснодара.</h3>
            <p>Исповедуем принципы минимализма и частоты.Ставим математический расчет<br> превыше      креатива.Работаем непокладая рук,как роботы.</p>
          <h4>Выполняем заказы на разработку</h4>
-           <ul class="feature-list">
-             <li class="feature-item">Вебсайтов любой сложности.</li>
-             <li class="feature-item">Мобильных приложений для ios и Андроид.</li>
-             <li class="feature-item">Слайдшоу и видео для корпоративов и презентаций.</li>
+           <ul class="benefits-list">
+             <li class="benefits-item">Вебсайтов любой сложности.</li>
+             <li class="benefits-item">Мобильных приложений для ios и Андроид.</li>
+             <li class="benefits-item">Слайдшоу и видео для корпоративов и презентаций.</li>
            </ul>
-       </section>
-       <figure class="benefits">
-           <img src="#" alt="Логотип дизайн студии Нердс">
+         <img src="#" alt="Логотип дизайн студии Нердс">
          <h4>С 2004 года любим точность во всем:<h4>
          <ul class="benefits-list">
           <li class="benefits-item">146% уровень самоотдачи</li>
           <li class="benefits-item">100% соблюдение сроков</li>
           <li class="benefits-item">50% минимальная предоплата</li>
          </ul>
-      </figure>
+        </section>
        <div class="user">
-         <img class="user-img" src="https://via.placeholder.com/199x67.82" alt="Логотип HTML академии">
-         <img class="user-img" src="https://via.placeholder.com/209x90" alt="Логотип Барбер шоп "Бородинский"">
-         <img class="user-img" src="https://via.placeholder.com/185x52" alt="Логотип "Пинк"">
-         <img class="user-img" src="https://via.placeholder.com/173x84" alt="Логотип"Мишка"">
+         <img class="user-img1" src="https://via.placeholder.com/199x67.82" alt="Логотип HTML академии">
+         <img class="user-img2" src="https://via.placeholder.com/209x90" alt="Логотип Барбер шоп "Бородинский"">
+         <img class="user-img3" src="https://via.placeholder.com/185x52" alt="Логотип "Пинк"">
+         <img class="user-img4" src="https://via.placeholder.com/173x84" alt="Логотип"Мишка"">
        </div>
     </main>
-      <footer class="page-footer">
+      <footer class="page-footer main-footer">
+       <div class="index-column"
         <section class="contacts">
           <h3>nerds design studio</h3>
           <p>191186, Санкт-Петербург,<br> ул. Б.Конюшенная, д. 19\8 <br>тел.+7(812)275-75-75</p>
@@ -77,6 +82,7 @@
           <!-- Здесь будет карта -->
             <li><button type="button">Закрыть</button></li>
         </section>
+       </div>
         <section class="social">
           <ul class="social-list">
             <li class="social-item"><a class="batton" href="https://vk.com/">Вконтакте</a></li>
