@@ -21,7 +21,7 @@ padding: 0;
 font-family: "Roboto", Arial, sans-serif;
 font-size: 16px;
 line-height: 24px;
-font-weight: 500;
+font-weight: 400;
 color: var(--basic-black);
 text-transform: uppercase;
 }
@@ -33,13 +33,9 @@ max-width: 100%;
 height: auto;
 }
 .inner-page .page-body {
-position: absolute;
 background: var(--basic-neutral);
 }
 /*grid*/
-.page {
-height: 100%;
-}
 .main-header {
 display:flex;
 margin-bottom: 545px;
@@ -55,6 +51,9 @@ left: 140px;
 top: 48.98px;
 }
 /*navigation*/
+.container {
+display: flex;
+}
 .main-navigation {
 position: absolute;
 width: 437;
@@ -82,17 +81,7 @@ outline: 5px solid rgba(0, 255, 255, 0.3);
 outline-offset: -5px;
 list-style: none;
 }
-.container {
-width: 940px;
-margin: 0 auto;
-padding: 0 10px;
-}
-.main-navigation-wrapper .container {
-display: flex;
-justify-content: space-between;
-}
 .site-navigation a {
-font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -104,7 +93,6 @@ align-items: center;
 text-transform: uppercase;
 }
 .user-navigation a {
-font-family:Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -129,11 +117,6 @@ color: var(--basic-black);
 opacity: 0.3;
 }
 /*logo*/
-
-/* container*/
-.page {
-display: flex;
-}
 /*news*/
 .visually-hidden {
 visibility: hidden;
@@ -142,17 +125,15 @@ visibility: hidden;
 list-style: none;
 }
 .news-slide {
-
-  position: absolute;
-  width: 760px;
-  height: 431px;
-  left: 537px;
-  top: 114px;
-  background: url(img/nerds-index-slide1-1.svg);
+position: absolute;
+width: 760px;
+height: 431px;
+left: 537px;
+top: 114px;
+background: url(img/nerds-index-slide1-1.svg);
 }
 .news-item h2 {
 width:538px;
-font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 55px;
@@ -160,10 +141,8 @@ line-height: 55px;
 display: flex;
 align-items: center;
 }
-.news .news-item-button {
-font-family: Roboto;
+.news-item-button {
 width: 240px;
-left:140px;
 font-style:normal;
 font-weight: 500;
 font-size: 16px;
@@ -178,12 +157,12 @@ color:var(--basic-white);
 box-sizing: border-box;
 }
 /*features*/
+.features {
+display: flex; 
+}
 .feature-list1 {
 list-style: none;
-position: absolute;
 width: 300px;
-left: 140px;
-top: 625px;
 background-image: url(img/illustration-1-1.svg);
 background-repeat: no-repeat;
 }
@@ -191,7 +170,6 @@ background-repeat: no-repeat;
 text-align: center;
 }
 .feature-item h2 {
-font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -199,20 +177,16 @@ line-height: 30px;
 display: flex;
 align-items: center;
 text-transform: uppercase;
-color:var(--basic-black)
+color:var(--basic-black);
 }
 .feature-item p {
-font-size: 16px;
-line-height: 24px;
 font-weight: normal;
 font-style: normal;
 align-items: center;
 display: flex;
 color:var(--basic-neutral-dark);
 }
-.button1 {
-font-family: Roboto;
-font-style: normal;
+.button {
 font-weight: 500;
 font-size: 16px;
 line-height: 18px;
@@ -222,55 +196,29 @@ text-align:center;
 color:var(--basic-white);
 text-transform: uppercase;
 border:none;
-background-color:var(--basic-red);
 border-radius: 3px;
 }
+.button-red {
+background-color:var(--basic-red);
+}
 .feature-list2 {
-position: absolute;
 width: 300px;
-left: 540px;
-top: 625px;
 background-image: url(img/illustration-2-1.svg);
 background-repeat: no-repeat;
 }
-.button2 {
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: var(--basic-white);
+.button-green {
 background-color:var(--basic-green);
-border-radius: 3px;
 }
-feature-list3 {
+.feature-list3 {
 position: absolute;
 background-image:url(img/illustration-3-1.svg);
 background-repeat: no-repeat;
 }
-.button3 {
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: var(--basic-white);
-position: absolute;
+.button-yellow {
 background-color:var(--basic-yelow);
-text-transform: uppercase;
-border-radius: 3px;
 }
 /*benefits*/
 .benefits h3 {
-font-family: inherit;
 font-style: normal;
 font-weight: 500;
 font-size: 45px;
@@ -280,7 +228,6 @@ align-items: center;
 color:var(--basic-black)
 }
 .benefits p {
-font-family: inherit;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -290,7 +237,6 @@ align-items: center;
 color:var(--basic-neutral-dark)
 }
 .benefits h4 {
-font-family: inherit;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -299,11 +245,8 @@ text-transform: uppercase;
 color:var(--basic-neutral-dark)
 }
 .benefits-item {
-font-family: inherit;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
-line-height: 24px;
 color:var(--basic-neutral-dark)
 }
 .benefits img {
@@ -311,11 +254,8 @@ background-image: url(img/nerds-illustration-1.png);
 background-repeat: no-repeat;
 }
 .benefits-list {
-font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
-line-height: 24px;
 display: flex;
 align-items: center;
 text-align: center;
@@ -324,7 +264,6 @@ list-style: none;
 color:var(--basic-black);
 }
 .benefits-item span {
-font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 45px;
@@ -362,7 +301,6 @@ outline-offset: -5px;
 
 }
 .contacts h3 {
-font-family: inherit;
 font-style: normal;
 color: var(--basic-black);
 font-size: 18px;
@@ -373,7 +311,6 @@ align-items: center;
 text-transform: uppercase;
 }
 .contacts p {
-font-family: inherit;
 font-style:normal;
 font-weight: normal;
 color: var(--basic-grey)
@@ -387,7 +324,6 @@ width: 219px;
 background-color: var(--basic-red);
 border-radius: 3px;
 color: var(--basic-white);
-font-family: inherit;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -403,7 +339,6 @@ align-items: center;
 background-color:var(--basic-grey);
 }
 .social h2 {
-font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -413,7 +348,6 @@ align-items: center;
 color:var(--basic-black);
 }
 .social p {
-font-family: inherit;
 font-size: 16px;
 line-height: 22px;
 font-style: normal;
@@ -435,7 +369,6 @@ visibility: hidden;
 }
 /*page-catalog-container*/
 .page-title {
-font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 55px;
@@ -444,7 +377,6 @@ display: flex;
 align-items:center;
 }
 .your-price h3 {
-font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -461,7 +393,6 @@ border-radius: 3px;
 .properties {
 }
 .p-item1 {
-font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -472,7 +403,6 @@ text-transform: uppercase;
 color:var(--basic-black)
 }
 .p-item2 {
-font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -484,7 +414,6 @@ color:var(--basic-black);
 mix-blend-mode: normal;
 }
 .p-item3 {
-font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -497,7 +426,6 @@ mix-blend-mode: normal;
 opacity: 0.3;
 }
 .p-item4 {
-font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -510,7 +438,6 @@ mix-blend-mode: normal;
 opacity: 0.3;
 }
 .network h3 {
-font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -521,7 +448,6 @@ text-transform: uppercase;
 color:var(--basic-black);
 }
 .network a {
-font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -529,7 +455,6 @@ line-height: 19px;
 color:var(--basic-neutral-dark);
 }
 .container h3 {
-font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -540,7 +465,6 @@ text-transform: uppercase;
 color:var(--basic-black);
 }
 .container a {
-font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -572,7 +496,6 @@ background-repeat: no-repeat;
 position: absolute;
 }
 .contacts-catalog h3 {
-font-family: inherit;
 font-style: normal;
 color: var(--basic-black);
 font-size: 18px;
@@ -583,7 +506,6 @@ align-items: center;
 text-transform: uppercase;
 }
 .contacts-catalog p {
-font-family: inherit;
 font-style:normal;
 font-weight: normal;
 color: var(--basic-grey)
@@ -613,7 +535,6 @@ align-items: center;
 background-color:var(--basic-grey);
 }
 .social-catalog h2 {
-font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -623,7 +544,6 @@ align-items: center;
 color:var(--basic-black);
 }
 .social-catalog p {
-font-family: inherit;
 font-size: 16px;
 line-height: 22px;
 font-style: normal;
