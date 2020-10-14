@@ -158,7 +158,7 @@ box-sizing: border-box;
 }
 /*features*/
 .features {
-display: flex; 
+display: flex;
 }
 .feature-list1 {
 list-style: none;
@@ -386,7 +386,7 @@ align-items: center;
 text-transform: uppercase;
 color:var(--basic-black);
 }
-.button {
+.button-price {
 background:var(--basic-neutral);
 border-radius: 3px;
 }
