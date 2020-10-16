@@ -197,6 +197,7 @@ color:var(--basic-white);
 text-transform: uppercase;
 border:none;
 border-radius: 3px;
+background:var(--basic-neutral);
 }
 .button-red {
 background-color:var(--basic-red);
@@ -385,10 +386,6 @@ display: flex;
 align-items: center;
 text-transform: uppercase;
 color:var(--basic-black);
-}
-.button-price {
-background:var(--basic-neutral);
-border-radius: 3px;
 }
 .properties {
 }
