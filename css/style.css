@@ -29,9 +29,6 @@ text-transform: uppercase;
 display: grid;
 grid-template-rows: 100px 100px 100px 100px;
 width: 437px;
-height: 30px;
-top: 75px;
-left: 502px;
 }
 .page-body a {
 text-decoration: none;
@@ -45,36 +42,22 @@ background: var(--basic-neutral);
 }
 /*grid*/
 .main-header {
-margin-bottom: 545px;
 outline: 5px solid rgba(0, 255, 0, 0.7);
 outline-offset: -5px;
 }
 .main-header-logo {
-order: 0;
-position: absolute;
 width: 159.87px;
-height: 65.02px;
-left: 140px;
-top: 48.98px;
 }
 /*navigation*/
 .container
 .main-navigation {
-position: absolute;
 width: 437;
-left: 502px;
-top: 0px;
-top:75px;
 font-size: 16px;
 line-height: 30px;
 color: var(--basic-black);
 }
 .user-navigation {
-position: absolute;
 width: 75px;
-height: 30px;
-left: 1224.84px;
-top: 75px;
 }
 .main-navigation-wrapper {
 width: 100%;
@@ -130,12 +113,8 @@ visibility: hidden;
 list-style: none;
 }
 .news-slide {
-position: absolute;
 width: 760px;
-height: 431px;
-left: 537px;
-top: 114px;
-background: url(img/nerds-index-slide1-1.svg);
+background: url(img/nerds-index-slide-1-1.svg);
 }
 .news-item h2 {
 width:538px;
@@ -216,7 +195,6 @@ background-repeat: no-repeat;
 background-color:var(--basic-green);
 }
 .feature-list3 {
-position: absolute;
 background-image:url(img/illustration-3-1.svg);
 background-repeat: no-repeat;
 }
